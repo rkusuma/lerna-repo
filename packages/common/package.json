@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "scripts": {
     "prepublish": "npm run build",
-    "mypublish": "lerna publish --skip-npm && cd dist && npm publish",
+    "mypublish": "cd dist && npm publish",
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
