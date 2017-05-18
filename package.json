@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "publish": "lerna publish --skip-npm && lernah run mypublish"
+    "publish": "lerna publish --skip-npm && lerna run mypublish"
   },
   "devDependencies": {
     "lerna": "2.0.0-beta.38"

@@ -2,8 +2,7 @@
   "name": "@catapa/common",
   "version": "0.1.5",
   "scripts": {
-    "prepublish": "npm run build",
-    "mypublish": "cd dist && npm publish",
+    "mypublish": "npm run build && cd dist && npm publish",
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
